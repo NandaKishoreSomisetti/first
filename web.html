@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Morgan | Software Developer & Designer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <a href="#hero" class="logo">AM<span>.</span></a>
+    <nav class="navbar" id="navbar">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </nav>
+    <button class="menu-btn" id="menu-btn" aria-label="Toggle menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Hi, my name is</p>
+        <h1 class="hero-title">Alex Morgan.</h1>
+        <h2 class="hero-subtitle">I build things for the web.</h2>
+        <p class="hero-bio">
+          I'm a full-stack developer specializing in building clean, performant, and accessible digital experiences.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-heading"><span class="accent-num">01.</span> About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Hello! I'm Alex, a developer who enjoys building software that lives on the internet. My interest in web development started back when I first tried customizing sites with basic HTML and CSS.
+            </p>
+            <p>
+              Fast forward to today, and I’ve had the privilege of building software for a variety of projects—from dynamic web applications to robust backend APIs.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <h3>3+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat-card">
+              <h3>20+</h3>
+              <p>Projects Completed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-heading"><span class="accent-num">02.</span> Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-type">Web App</span>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Code</a>
+                <a href="#" target="_blank" rel="noopener">Live</a>
+              </div>
+            </div>
+            <h3 class="project-title">Project Delta</h3>
+            <p class="project-desc">
+              A real-time dashboard displaying system performance metrics, custom alerts, and cloud resource analytics.
+            </p>
+            <ul class="tech-stack">
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Tailwind</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-type">E-Commerce</span>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Code</a>
+                <a href="#" target="_blank" rel="noopener">Live</a>
+              </div>
+            </div>
+            <h3 class="project-title">Aura Marketplace</h3>
+            <p class="project-desc">
+              Minimalist e-commerce platform integrated with dynamic cart capabilities and instant checkout through Stripe.
+            </p>
+            <ul class="tech-stack">
+              <li>Next.js</li>
+              <li>Stripe</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-type">Tooling</span>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Code</a>
+                <a href="#" target="_blank" rel="noopener">Live</a>
+              </div>
+            </div>
+            <h3 class="project-title">DevLog CLI</h3>
+            <p class="project-desc">
+              A lightweight command-line interface tool for managing daily developer sprint logs and git commits.
+            </p>
+            <ul class="tech-stack">
+              <li>Python</li>
+              <li>Click</li>
+              <li>SQLite</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-heading"><span class="accent-num">03.</span> Skills</h2>
+        <div class="skills-wrapper">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5 / CSS3 / SCSS</li>
+              <li>JavaScript (ES6+)</li>
+              <li>TypeScript</li>
+              <li>React / Vue.js</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js / Express</li>
+              <li>Python / FastAPI</li>
+              <li>PostgreSQL / MongoDB</li>
+              <li>REST & GraphQL APIs</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>DevOps & Tools</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>Docker</li>
+              <li>AWS / Vercel</li>
+              <li>CI/CD Workflows</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-container">
+        <h2 class="section-heading"><span class="accent-num">04.</span> Get In Touch</h2>
+        <p class="contact-intro">
+          My inbox is always open. Whether you have a question or just want to say hi, I'll do my best to get back to you!
+        </p>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Jane Doe" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="jane@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Say hello..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <div id="form-feedback" class="form-feedback"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Designed & Built by Alex Morgan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
